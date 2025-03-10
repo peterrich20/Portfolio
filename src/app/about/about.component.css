@@ -1,0 +1,44 @@
+/* Estilos para la línea de tiempo */
+.timeline ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .timeline ul li {
+    margin-bottom: 30px; /* Más espacio entre elementos */
+    position: relative;
+    padding-left: 80px; /* Más espacio para el círculo */
+  }
+  
+  .timeline ul li::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 50px; /* Círculo más grande */
+    height: 50px;
+    background: #FF6F61; /* Color más vibrante */
+    border-radius: 50%;
+    border: 3px solid #FFFFFF; /* Borde blanco para destacar */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  }
+  
+  .timeline ul li .date {
+    font-weight: bold;
+    color: #333333; /* Color más suave */
+    font-size: 1.1em; /* Tamaño de fuente más grande */
+    margin-bottom: 5px; /* Espacio entre la fecha y el contenido */
+  }
+  
+  .timeline ul li .content {
+    background: #FFFFFF; /* Fondo blanco */
+    padding: 20px; /* Más espacio interno */
+    border-radius: 10px; /* Bordes más redondeados */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Efecto hover */
+  }
+  
+  .timeline ul li .content:hover {
+    transform: translateY(-5px); /* Levantar ligeramente al pasar el mouse */
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2); /* Sombra más pronunciada */
+  }

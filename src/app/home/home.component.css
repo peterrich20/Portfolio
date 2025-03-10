@@ -1,0 +1,126 @@
+/* Hero Banner */
+#hero {
+    color: #fff;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
+    background: linear-gradient(135deg, #6a11cb, #2575fc); /* Fondo degradado */
+    padding: 100px 0;
+    text-align: center;
+  }
+  
+  /* Sección de Introducción */
+  #intro h2 {
+    font-size: 2.8rem;
+    margin-bottom: 1.5rem;
+    color: #333;
+    font-weight: 700;
+  }
+  
+  #intro p {
+    font-size: 1.2rem;
+    color: #555;
+    line-height: 1.8;
+  }
+  
+  /* Tarjetas de Proyectos */
+  .card {
+    border: none;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    border-radius: 15px;
+    overflow: hidden;
+    background: #fff;
+  }
+  
+  .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Ajusta el tamaño de las imágenes en las tarjetas */
+  .card-img-top {
+    width: 100px; /* Tamaño un poco más grande */
+    height: auto;
+    margin: 20px auto 10px;
+    display: block;
+    transition: transform 0.3s ease;
+  }
+  
+  .card:hover .card-img-top {
+    transform: scale(1.1); /* Efecto de zoom al hacer hover */
+  }
+  
+  /* Estructura interna de la tarjeta */
+  .card-body {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .card-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .card-text {
+    font-size: 1rem;
+    color: #666;
+    line-height: 1.6;
+  }
+  
+  /* Llamada a la Acción */
+  #cta {
+    background: linear-gradient(135deg, #2575fc, #6a11cb); /* Fondo degradado */
+    padding: 80px 0;
+    text-align: center;
+    color: #fff;
+  }
+  
+  #cta h2 {
+    font-size: 2.8rem;
+    margin-bottom: 1.5rem;
+    font-weight: 700;
+  }
+  
+  #cta p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+  }
+  
+  /* Estilo para el botón personalizado */
+  .btn-custom {
+    background-color: #ff6f61; /* Color coral */
+    color: white;
+    font-size: 1rem;
+    padding: 12px 24px;
+    border-radius: 30px; /* Bordes más redondeados */
+    transition: background 0.3s ease, transform 0.3s ease;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .btn-custom:hover {
+    background-color: #ff4a3d; /* Color coral más oscuro */
+    transform: translateY(-3px); /* Efecto de elevación */
+  }
+  
+  .btn-custom:active {
+    transform: translateY(0); /* Restablece la posición al hacer clic */
+  }
+  
+  /* Efecto de sombra en el botón */
+  .btn-custom {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  }
+  
+  .btn-custom:hover {
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.3);
+  }

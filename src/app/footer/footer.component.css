@@ -1,0 +1,44 @@
+footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    background-color: #2C3E50; /* Color de fondo más oscuro y profesional */
+    color: #FFFFFF; /* Texto en blanco */
+    padding: 30px 0; /* Más espacio interno */
+    text-align: center;
+    font-family: 'Arial', sans-serif; /* Fuente moderna */
+    border-top: 4px solid #18BC9C; /* Borde superior con un toque de color */
+    box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.1); /* Sombra suave en la parte superior */
+  }
+  
+  footer a {
+    color: #18BC9C; /* Color para enlaces */
+    text-decoration: none; /* Sin subrayado */
+    transition: color 0.3s ease; /* Transición suave al pasar el mouse */
+  }
+  
+  footer a:hover {
+    color: #FFFFFF; /* Cambio de color al pasar el mouse */
+  }
+  
+  footer .social-icons {
+    margin-top: 15px; /* Espacio arriba de los íconos sociales */
+  }
+  
+  footer .social-icons a {
+    margin: 0 10px; /* Espacio entre íconos */
+    font-size: 1.5em; /* Tamaño de los íconos */
+    color: #FFFFFF; /* Color de los íconos */
+    transition: color 0.3s ease, transform 0.3s ease; /* Efectos al pasar el mouse */
+  }
+  
+  footer .social-icons a:hover {
+    color: #18BC9C; /* Cambio de color al pasar el mouse */
+    transform: translateY(-3px); /* Levantar ligeramente el ícono */
+  }
+  
+  footer p {
+    margin: 10px 0 0; /* Espaciado del texto */
+    font-size: 0.9em; /* Tamaño de fuente más pequeño */
+    opacity: 0.9; /* Ligera transparencia */
+  }

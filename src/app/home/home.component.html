@@ -1,0 +1,108 @@
+<!-- Hero Banner -->
+<section id="hero" class="d-flex align-items-center"
+      style="background: url('https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1') center/cover no-repeat; min-height: 100vh;">
+  <div class="container text-center" data-aos="fade-up">
+    <h1 class="display-4 text-white">Bienvenido a Mi Portfolio</h1>
+    <p class="lead text-white">
+      Soy Pedro, un apasionado del marketing digital y el desarrollo web. ¡Descubre cómo puedo ayudarte a impulsar tu negocio en línea!
+    </p>
+    <a routerLink="/portfolio" class="btn btn-custom btn-lg mt-3">Ver Proyectos</a>
+  </div>
+</section>
+
+<!-- Sección de Introducción -->
+<section id="intro" class="py-5">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-md-6" data-aos="fade-right">
+        <img src="img/IMG_1919.PNG" class="img-fluid rounded-circle">
+      </div>
+      <div class="col-md-6" data-aos="fade-left">
+        <h2>Hola, soy Pedro</h2>
+        <p>
+          Un apasionado del marketing digital y el mundo web. Me especializo en crear estrategias de marketing efectivas y desarrollar sitios web que no solo se ven bien, sino que también generan resultados. Con experiencia en SEO, publicidad en redes sociales y diseño UX/UI, estoy listo para llevar tu presencia en línea al siguiente nivel.
+        </p>
+        <a routerLink="/about" class="btn btn-light mt-3">Saber más sobre mí</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Sección de Proyectos Destacados -->
+<section id="featured" class="py-5">
+  <div class="container">
+    <h2 class="text-center mb-5" data-aos="fade-up">Lo Último en Mis Proyectos</h2>
+    <div class="row">
+      <div class="col-md-6 mb-4 portfolio-item" data-category="web" data-aos="zoom-in" data-aos-delay="300">
+        <div class="card">
+          <img src="https://images.pexels.com/photos/590016/pexels-photo-590016.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="card-img-top" alt="Campaña de Marketing Digital">
+          <div class="card-body">
+            <h5 class="card-title">Campaña de Marketing Digital</h5>
+            <p class="card-text">Estrategia integral de marketing digital para aumentar la visibilidad y conversiones de una marca.</p>
+            <button class="btn btn-custom" data-bs-toggle="modal" data-bs-target="#projectModal4">Ver detalles</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 mb-4 portfolio-item" data-category="web" data-aos="zoom-in">
+        <div class="card">
+          <img src="https://images.pexels.com/photos/270637/pexels-photo-270637.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="card-img-top" alt="Rediseño de Sitio Web">
+          <div class="card-body">
+            <h5 class="card-title">Rediseño de Sitio Web</h5>
+            <p class="card-text">Rediseño y optimización de un sitio web para mejorar la experiencia del usuario y el SEO.</p>
+            <button class="btn btn-custom" data-bs-toggle="modal" data-bs-target="#projectModal1">Ver detalles</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Llamada a la Acción (CTA) -->
+<section id="cta" class="py-5 text-center">
+  <div class="container" data-aos="zoom-in">
+    <h2>¿Listo para impulsar tu negocio?</h2>
+    <p class="lead">Ponte en contacto conmigo y transformemos tu idea en una estrategia digital exitosa.</p>
+    <a routerLink="/contact" class="btn btn-custom btn-lg mt-3">Contáctame</a>
+  </div>
+</section>
+
+<!-- Modales para los Proyectos -->
+<section>
+  <!-- Modal Proyecto 1 -->
+  <div class="modal fade" id="projectModal1" tabindex="-1" aria-labelledby="projectModal1Label" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="projectModal1Label">Rediseño de Sitio Web</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+        </div>
+        <div class="modal-body">
+          <p>Detalles del rediseño de un sitio web para mejorar la experiencia del usuario y optimizar el SEO. Se utilizaron herramientas como Figma, WordPress y técnicas avanzadas de SEO.</p>
+          <img src="https://images.pexels.com/photos/270637/pexels-photo-270637.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Detalle Proyecto 1" class="img-fluid rounded">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal Proyecto 4 -->
+  <div class="modal fade" id="projectModal4" tabindex="-1" aria-labelledby="projectModal4Label" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="projectModal4Label">Campaña de Marketing Digital</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+        </div>
+        <div class="modal-body">
+          <p>Detalles de una campaña de marketing digital exitosa que incluyó publicidad en redes sociales, SEO y estrategias de contenido para aumentar las conversiones.</p>
+          <img src="https://images.pexels.com/photos/590016/pexels-photo-590016.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Detalle Proyecto 4" class="img-fluid rounded">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
